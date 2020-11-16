@@ -45,7 +45,7 @@
 
         private Employee ResolveEmployeeType(Employee employee)
         {
-            Employee result = null;
+            Employee result = employee;
             if (employee.ContractTypeName == null)
             {
                 return result;
