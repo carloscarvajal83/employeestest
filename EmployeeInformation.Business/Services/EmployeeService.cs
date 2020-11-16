@@ -29,9 +29,7 @@
             foreach(var item in employeeList)
             {
                 var employee = ResolveEmployeeType(item);
-                if (employee != null){
-                    result.Add(employee);
-                }
+                result.Add(employee);
             }
             return result;
         }
